@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosip_enchilada.mk
+    $(LOCAL_DIR)/potato_enchilada.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosip_enchilada-user \
-    aosip_enchilada-userdebug \
-    aosip_enchilada-eng
+    potato_enchilada-user \
+    potato_enchilada-userdebug \
+    potato_enchilada-eng
