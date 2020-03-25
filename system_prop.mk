@@ -45,6 +45,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.early_gl_app_phase_offset_ns=15000000 \
     debug.sf.early_phase_offset_ns=1500000
 
+# Display cutout
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.potato.has_cutout=true
+
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cne.feature=1
@@ -99,3 +103,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Vendor
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.va_aosp.support=1
+
