@@ -179,10 +179,3 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
-
-PRODUCT_BOARD_PLATFORM := sdm845
-PRODUCT_USES_QCOM_HARDWARE := true
-PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
-
-# Use Qcom Surfaceflinger
-PRODUCT_USE_QCOM_SURFACEFLINGER := true
